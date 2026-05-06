@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Birds of Prey Lacrosse</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-area">
+            <!-- Insert brand logo image here: replace the src with your logo file -->
+            <img src="css/media/logo.png" alt="Birds of Prey Lacrosse Logo" class="logo">
+            <h1>Birds of Prey Lacrosse</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Our Products</h2>
+            <p>Browse our lineup of lacrosse equipment and apparel. Each product is built to meet the demands of competitive play.</p>
+        </section>
+
+        <section class="product-grid">
+
+            <div class="product-card">
+                <!-- Insert product image here: replace src with your product photo -->
+                <img src="css/media/product1.png" alt="Birds of Prey Lacrosse Head">
+                <h3>Signature Lacrosse Head</h3>
+                <p>Our flagship lacrosse head designed for precision passing and shooting. Lightweight and durable.</p>
+                <p class="price">$89.99</p>
+            </div>
+
+            <div class="product-card">
+                <!-- Insert product image here: replace src with your product photo -->
+                <img src="css/media/product2.png" alt="Birds of Prey Jersey">
+                <h3>Game Jersey</h3>
+                <p>Moisture-wicking fabric in our signature navy blue and gold colorway. Available in all sizes.</p>
+                <p class="price">$49.99</p>
+            </div>
+
+        </section>
+
+        <section class="product-table-section">
+            <h2>Product Comparison</h2>
+            <p>Not sure which head is right for you? Use the table below to compare our options.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Signature Head</th>
+                        <th>Training Head</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Weight</td>
+                        <td>4.8 oz</td>
+                        <td>5.2 oz</td>
+                    </tr>
+                    <tr>
+                        <td>Material</td>
+                        <td>Carbon fiber blend</td>
+                        <td>High-density plastic</td>
+                    </tr>
+                    <tr>
+                        <td>Best For</td>
+                        <td>Games and competition</td>
+                        <td>Practice and drills</td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>$89.99</td>
+                        <td>$54.99</td>
+                    </tr>
+                    <tr>
+                        <td>Warranty</td>
+                        <td>2 years</td>
+                        <td>1 year</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="size-check">
+            <h2>Size Checker</h2>
+            <p>Enter your height to get a sizing recommendation for our jerseys and gear.</p>
+            <label for="height-input">Your height (in inches):</label>
+            <input type="text" id="height-input" placeholder="e.g. 70">
+            <button onclick="checkSize()">Get Recommendation</button>
+            <p id="size-result"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Birds of Prey Lacrosse - Griffin and Zack</p>
+        <p>IT105 - Principles of Programming</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
