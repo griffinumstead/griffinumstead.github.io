@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - Birds of Prey Lacrosse</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-area">
+            <img src="media/Eagle.jpg" alt="Birds of Prey Lacrosse Logo" class="logo">
+            <h1>Birds of Prey Lacrosse</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="team.html">Our Team</a>
+            <a href="news.html">News</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>News and Updates</h2>
+            <p>Stay up to date with what is happening at Birds of Prey Lacrosse. From new product launches to sponsorship announcements, this is where you will find it all.</p>
+        </section>
+
+        <section class="news-filter">
+            <label for="filter-input">Filter articles by keyword:</label>
+            <input type="text" id="filter-input" placeholder="e.g. product, sponsorship, season">
+            <button onclick="filterNews()">Search</button>
+            <button onclick="clearFilter()">Clear</button>
+            <p id="filter-message"></p>
+        </section>
+
+        <section id="news-container">
+
+            <article class="news-card" data-tags="product launch head">
+                <h3>Signature Head Now Available</h3>
+                <p class="news-date">Spring 2025</p>
+                <p>After months of development and player testing, our flagship Signature Lacrosse Head is officially available. Designed for attackers and midfielders who want a lightweight, responsive feel, the head is now listed on our products page. Early feedback from beta testers has been outstanding.</p>
+            </article>
+
+            <article class="news-card" data-tags="sponsorship partnership team">
+                <h3>First Team Sponsorship Partnership Announced</h3>
+                <p class="news-date">Winter 2025</p>
+                <p>Birds of Prey is proud to announce its first official team sponsorship. We will be providing gear and apparel to a regional club lacrosse program this coming season. This partnership reflects our commitment to supporting the lacrosse community at the grassroots level and getting quality equipment into the hands of players who need it.</p>
+            </article>
+
+            <article class="news-card" data-tags="apparel jersey launch">
+                <h3>Game Jersey Added to the Lineup</h3>
+                <p class="news-date">Fall 2024</p>
+                <p>Our navy blue and gold Game Jersey is now part of the Birds of Prey product lineup. Made from moisture-wicking fabric and designed for comfort during full-game conditions, the jersey is available in sizes small through extra large. Team orders of ten or more jerseys qualify for a discount. Contact us for details.</p>
+            </article>
+
+            <article class="news-card" data-tags="brand launch founding">
+                <h3>Birds of Prey Lacrosse Officially Founded</h3>
+                <p class="news-date">Summer 2024</p>
+                <p>Griffin and Zack officially launched Birds of Prey Lacrosse with a simple mission: build gear that players can trust at a price that makes sense. What started as a conversation between two teammates turned into a full brand with a product line, a website, and a growing community. We are just getting started.</p>
+            </article>
+
+        </section>
+
+        <section>
+            <h2>Around the Lacrosse World</h2>
+            <p>We follow the lacrosse community closely. Here are some resources we recommend keeping up with:</p>
+            <ul>
+                <li><a href="https://www.theinsidelacrosse.com" target="_blank">Inside Lacrosse</a> - News, rankings, and coverage of college and pro lacrosse</li>
+                <li><a href="https://www.ncaa.org/sports/lacrosse" target="_blank">NCAA Lacrosse</a> - Official college lacrosse standings and tournament information</li>
+                <li><a href="https://www.laxallstars.com" target="_blank">Lax All Stars</a> - Highlights, gear reviews, and culture from across the game</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Season Schedule Reference</h2>
+            <p>Use the table below as a general reference for when lacrosse seasons typically run at each level of play.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Season Start</th>
+                        <th>Season End</th>
+                        <th>Championship</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Youth Club</td>
+                        <td>March</td>
+                        <td>June</td>
+                        <td>June Tournament</td>
+                    </tr>
+                    <tr>
+                        <td>High School</td>
+                        <td>March</td>
+                        <td>May</td>
+                        <td>State Playoffs (May)</td>
+                    </tr>
+                    <tr>
+                        <td>NCAA Division I</td>
+                        <td>February</td>
+                        <td>May</td>
+                        <td>NCAA Tournament (May)</td>
+                    </tr>
+                    <tr>
+                        <td>Summer Club</td>
+                        <td>June</td>
+                        <td>August</td>
+                        <td>Varies by League</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Birds of Prey Lacrosse - Griffin and Zack</p>
+        <p>IT105 - Principles of Programming</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
